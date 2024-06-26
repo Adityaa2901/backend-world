@@ -1,0 +1,21 @@
+{
+  "name": "auth-method",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start1": "nodemon auth_method1.mjs",
+    "start2": "nodemon auth_method2.mjs",
+    "start3": "nodemon auth_method3.mjs",
+    "start4": "nodemon auth_method4.mjs",
+    "start5": "nodemon auth_method5.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  }
+}
